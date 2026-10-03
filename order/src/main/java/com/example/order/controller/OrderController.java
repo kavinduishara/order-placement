@@ -6,6 +6,7 @@ import com.example.order.kafka.KafkaProducer;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -21,9 +22,14 @@ public class OrderController {
 
     }
     @PostMapping("/place-order")
-    public ResponseEntity<String> addCourse(@RequestBody OrderDTO orderDTO)
+    public ResponseEntity<String> addOrder(@RequestBody OrderDTO orderDTO)
     {
         String response=kafkaProducer.sendMessage(orderDTO);
         return new ResponseEntity<String>(response, HttpStatus.OK);
+    }
+    @GetMapping("/health")
+    public ResponseEntity<String> health()
+    {
+        return new ResponseEntity<String>("server is healthy", HttpStatus.OK);
     }
 }
