@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7952394-e85a-4bde-9acd-eb1aa4b41dd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/event/InventoryReservationRequestedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/kafka/consumer/InventoryReservationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/order_processing_api_gateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/event/InventoryReservationRequestedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/kafka/producer/InventoryReservationProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/kafka/KafkaConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inventory/src/main/java/com/example/inventory/kafka/producer/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../inventory/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/example/order/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/example/order/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/kafka/consumer/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/example/order/kafka/KafkaProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/example/order/kafka/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/example/order/kafka/topicConfig/KafkaTopicConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3KB1wZAQ9WiJfG57X42wd20IOz7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OrderProcessingApiGatewayApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7952394-e85a-4bde-9acd-eb1aa4b41dd9" name="Changes" comment="" />
+      <created>1791016387258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791016387258</updated>
+    </task>
+    <servers />
+  </component>
+</project>
