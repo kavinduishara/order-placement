@@ -1,14 +1,17 @@
 package com.example.inventory.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@NoArgsConstructor
-@AllArgsConstructor
+import java.util.List;
+
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class OrderDTO {
+
     private Long orderId;
+    private List<RequestedProductDTO> requestedProducts;
+    private OrderStatus orderStatus;
+    private List<StockReservationResultDTO> reservationResults;
 }

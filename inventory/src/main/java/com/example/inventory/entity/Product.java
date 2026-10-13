@@ -28,6 +28,8 @@ public class Product {
     @Column(nullable = false, precision = 10, scale = 2)
     private BigDecimal unitPrice;
 
+    private Integer reserved;
+
     public Product(String name, BigDecimal unitPrice, Integer availableQuantity) {
         this.name = name;
         this.unitPrice = unitPrice;

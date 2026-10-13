@@ -1,6 +1,7 @@
 
 package com.example.inventory.controller;
 
+import com.example.inventory.dto.OrderDTO;
 import com.example.inventory.dto.ProductDTO;
 import com.example.inventory.service.InventoryService;
 import jakarta.validation.Valid;
@@ -28,5 +29,10 @@ public class InventoryController {
     public ProductDTO addProduct(@Valid @RequestBody ProductDTO productDTO) {
 
         return inventoryService.addProduct(productDTO);
+    }
+    @PostMapping("/reserve")
+    public OrderDTO addProduct(@RequestBody OrderDTO orderDTO) {
+
+        return inventoryService.reserveProduct(orderDTO);
     }
 }
