@@ -7,7 +7,6 @@ import com.example.inventory.service.InventoryService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @CrossOrigin
@@ -31,8 +30,13 @@ public class InventoryController {
         return inventoryService.addProduct(productDTO);
     }
     @PostMapping("/reserve")
-    public OrderDTO addProduct(@RequestBody OrderDTO orderDTO) {
+    public OrderDTO reserveProducts(@RequestBody OrderDTO orderDTO) {
 
-        return inventoryService.reserveProduct(orderDTO);
+        return inventoryService.reserveProducts(orderDTO);
+    }
+    @PostMapping("/cancel")
+    public String cancelOrder(@RequestBody OrderDTO orderDTO) {
+
+        return inventoryService.cancelReservation(orderDTO.getOrderId());
     }
 }
